@@ -44,6 +44,9 @@ const Ligne = ({question,reponse})=>{
 
 const Learn = ({title,list}) => {
 
+  console.log("title : ",title)
+  console.log("list  : ",list)
+
   return (
     <>
 

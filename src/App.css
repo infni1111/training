@@ -6,10 +6,15 @@
 
 .div_app{
   
+  height: 90vh;
   display: flex;
   flex-direction: column;
-  gap:1000px;
+  justify-content: center;
+ align-items: center;
+
 }
+
+
 
 .write {
 
@@ -17,4 +22,23 @@
   display: flex;
   width: 500px;
   background-color: red;
+}
+
+
+.div_button{
+  
+  width: 100vw;
+  justify-content: center;
+  display: flex;
+
+}
+
+.btn1{
+  margin-right: 20px;
+  background-color: green;
+}
+
+button{
+  padding: 5px;
+  border-radius: 20%;
 }
