@@ -37,16 +37,31 @@ const Home = ()=>{
 function App() {
   return (
 
-    <Router>
+    <div className = "div_app">
 
-      <Routes>
+      {
+        /* 
 
-        <Route path = "/" element = {<Home />} />
-        <Route path = "/training" element= {<Learn list = {osi_list} title = "Modèle OSI" />} />
-        <Route path = "/micro" element = {<Micro />} />
-      </Routes>
+            <Router>
 
-    </Router>
+            <Routes>
+
+              <Route path = "/" element = {<Home />} />
+              <Route path = "/training" element= {<Learn list = {osi_list} title = "Modèle OSI" />} />
+              <Route path = "/micro" element = {<Micro />} />
+            </Routes>
+
+          </Router>
+
+
+        */
+      }
+
+            infni
+
+    </div>
+
+
    
   );
 }
